@@ -1,0 +1,51 @@
+css
+li{
+    @apply hover:text-gray-500
+}
+
+
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  .nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .nav ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: transform 0.3s ease; /* Aggiunge transizione all'effetto di traslazione */
+  }
+  
+  .nav ul li a:hover {
+    transform: translateY(-5px); /* Sposta verso l'alto quando passi sopra con il mouse */
+  }
+  
+  .nav {
+    background-color: #2b2b2b;
+    color: white;
+  }
+  
+  .nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav ul li {
+    display: inline-block;
+  }
+  
+  .nav ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+  }
+
+

@@ -1,0 +1,54 @@
+.primotesto{
+    padding-top: 250px;
+    font-size: 30px;
+   text-align: center;
+    }
+    
+    .text {
+        display: inline-block;
+        overflow: hidden;
+        border-right: .15em solid orange; /* Simula il cursore di scrittura */
+        white-space: nowrap; /* Impedisce al testo di andare a capo */
+      }
+      
+    
+      .primotesto{
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 1px solid 1s; /* Simula il cursore di scrittura */
+        animation: typing 3s steps(40) forwards;
+        transition: opacity 1s ease-in-out; 
+      }
+      
+      @keyframes typing {
+        from {
+          width: 0;
+        }
+        to {
+          width: 100%;
+        }
+      }
+      
+    
+      :root {
+        --larghezza-viewport: 100vw; /* Imposta la larghezza della viewport come 100% della larghezza della finestra del browser */
+      }
+      
+      .primotesto{
+        width: var( --larghezza-viewport);
+      }
+    
+    
+   
+      .secondotesto{
+        padding-top: 250px;
+        font-size: 30px;
+       text-align: center;
+        }
+        .secondotesto{
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: 1px solid 1s; /* Simula il cursore di scrittura */
+            animation: typing 3s steps(40) forwards;
+            transition: opacity 1s ease-in-out; 
+          }
